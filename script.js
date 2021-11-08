@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const newSquare = document.getElementById(newId);
                 click(newSquare);
             }
-            if (currentID < 98 && !isRightEdge) {
+            if (currentID < 99 && !isRightEdge) {
                 const newId = squares[parseInt(currentID) + 1].id;
                 const newSquare = document.getElementById(newId);
                 console.log(newSquare);
